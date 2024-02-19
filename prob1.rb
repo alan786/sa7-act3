@@ -10,4 +10,4 @@ CSV.foreach('data.csv', headers: true) do |row|
 end
 
 # Print the array of hashes
-puts data.inspect
+p data#.inspect
